@@ -6,6 +6,11 @@ import {SafeERC20} from "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol
 import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 import {ReentrancyGuard} from "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
 
+/**
+ * @title Staking contract
+ * @notice Rareskills beginner solidity projects list
+ * @author Zurab Anchabadze (https://x.com/anchabadze)
+ */
 contract StakeTogether is Ownable, ReentrancyGuard {
     using SafeERC20 for IERC20;
 
